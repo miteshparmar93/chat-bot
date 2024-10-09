@@ -3,7 +3,7 @@ let container=document.querySelector(".container")
 let chatContainer=document.querySelector(".chat-container")
 let btn=document.querySelector(".btn")
 let userMessage=null
-let Api_url ='https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyAigBKM2rcrhoHeOwZ1tGVx9DW0Fonl7a0'
+// need to add API key
 function createChatBox(html,className){
 const div=document.createElement("div")
 div.classList.add(className)
