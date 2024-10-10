@@ -3,7 +3,7 @@ let container=document.querySelector(".container")
 let chatContainer=document.querySelector(".chat-container")
 let btn=document.querySelector(".btn")
 let userMessage=null
-// need to add API key
+let Api_url = "add the api key to access the bot";
 function createChatBox(html,className){
 const div=document.createElement("div")
 div.classList.add(className)
